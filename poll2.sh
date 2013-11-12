@@ -1,7 +1,7 @@
 postfix="78r" # e.g. 50_poll36r.svg
 usercount=5
-hostsfile="testdata/hosts.csv"
-debugfile="testdata/debugflags.csv"
+hostsfile="hosts.csv"
+debugfile="debugflags.csv"
 rampup=1 # sec
 inputdelay=1000 #ms
 

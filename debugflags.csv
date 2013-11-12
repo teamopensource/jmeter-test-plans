@@ -1,5 +1,1 @@
-XDEBUG_SESSION_START=name
- 
- 
- 
- 
+XDEBUG_PROFILE=1
