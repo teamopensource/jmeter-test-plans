@@ -1,10 +1,11 @@
-postfix="71r" # e.g. 50_poll36r.svg
-usercount=200
-hostsfile="hosts.csv"
-rampup=15 # sec
-inputdelay=60000 #ms
+postfix="78r" # e.g. 50_poll36r.svg
+usercount=5
+hostsfile="testdata/hosts.csv"
+debugfile="testdata/debugflags.csv"
+rampup=1 # sec
+inputdelay=1000 #ms
 
-jmeter -n -t vote4.jmx -Jusercount=$usercount -Joutpostfix=$postfix -Jhostsfile=$hostsfile -Jrampup=$rampup -Jinputdelay=$inputdelay
+jmeter -t vote5.jmx -Jusercount=$usercount -Joutpostfix=$postfix -Jhostsfile=$hostsfile -Jdebugfile=$debugfile -Jrampup=$rampup -Jinputdelay=$inputdelay
 wait
 
-/usr/bin/Rscript poll_dist3.r $usercount $postfix $hostsfile $rampup $inputdelay
+/usr/bin/Rscript poll_dist4.r $usercount $postfix $hostsfile $rampup $inputdelay
