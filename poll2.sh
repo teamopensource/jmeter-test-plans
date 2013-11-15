@@ -1,10 +1,10 @@
-postfix="71r" # e.g. 50_poll36r.svg
-usercount=200
+postfix="119r" # e.g. 50_poll36r.svg
+usercount=500
 hostsfile="hosts.csv"
-rampup=15 # sec
-inputdelay=60000 #ms
+rampup=60 # sec
+inputdelay=1000 #ms
 
-jmeter -n -t vote4.jmx -Jusercount=$usercount -Joutpostfix=$postfix -Jhostsfile=$hostsfile -Jrampup=$rampup -Jinputdelay=$inputdelay
+java -jar C:/apache-jmeter-2.10/bin/ApacheJMeter.jar -n -t vote4.jmx -Jusercount=$usercount -Joutpostfix=$postfix -Jhostsfile=$hostsfile -Jrampup=$rampup -Jinputdelay=$inputdelay
 wait
 
-/usr/bin/Rscript poll_dist3.r $usercount $postfix $hostsfile $rampup $inputdelay
+"C:/Program Files/R/R-3.0.2/bin/Rscript.exe" poll_dist4.r $usercount $postfix $hostsfile $rampup $inputdelay
