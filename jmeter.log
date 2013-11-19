@@ -1,0 +1,485 @@
+2013/11/12 19:50:49 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Loading user properties from: /home/hhau/Downloads/apache-jmeter-2.10/bin/user.properties 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Loading system properties from: /home/hhau/Downloads/apache-jmeter-2.10/bin/system.properties 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Setting JMeter property: usercount=5 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Setting JMeter property: outpostfix=78r 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Setting JMeter property: hostsfile=hosts.csv 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Setting JMeter property: debugfile=debugflags.csv 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Setting JMeter property: rampup=1 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Setting JMeter property: inputdelay=1000 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Copyright (c) 1998-2013 The Apache Software Foundation 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Version 2.10 r1533061 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: java.version=1.6.0_27 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: java.vm.name=OpenJDK Server VM 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: os.name=Linux 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: os.arch=i386 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: os.version=3.2.0-4-686-pae 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: JMeterHome=/home/hhau/Downloads/apache-jmeter-2.10 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: user.dir  =/home/hhau/jmeter-test-plans 
+2013/11/12 19:50:50 INFO  - jmeter.JMeter: PWD       =/home/hhau/jmeter-test-plans 
+2013/11/12 19:50:51 INFO  - jmeter.JMeter: IP: 127.0.1.1 Name: hhau-debian FullName: hhau-debian.com 
+2013/11/12 19:50:51 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2013/11/12 19:51:17 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2013/11/12 19:51:17 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2013/11/12 19:51:18 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: javax.swing.plaf.metal.MetalLookAndFeel [Metal, CrossPlatform] 
+2013/11/12 19:51:22 INFO  - jmeter.JMeter: Loading file: vote5.jmx 
+2013/11/12 19:51:22 INFO  - jmeter.services.FileServer: Default base='/home/hhau/jmeter-test-plans' 
+2013/11/12 19:51:22 INFO  - jmeter.services.FileServer: Set new base='/home/hhau/jmeter-test-plans' 
+2013/11/12 19:51:22 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2013/11/12 19:51:26 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2013/11/12 19:51:26 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2013/11/12 19:51:26 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.5 
+2013/11/12 19:51:26 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1519088 
+2013/11/12 19:51:26 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2013/11/12 19:51:26 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
+2013/11/12 19:51:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2013/11/12 19:51:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2013/11/12 19:51:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2013/11/12 19:51:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2013/11/12 19:51:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2013/11/12 19:51:27 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2013/11/12 19:51:27 INFO  - jmeter.services.FileServer: Set new base='/home/hhau/jmeter-test-plans' 
+2013/11/12 19:51:27 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.control.gui.WebServiceSamplerGui 
+2013/11/12 19:51:27 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2013/11/12 19:51:27 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2013/11/12 19:51:27 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2013/11/12 19:51:27 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2013/11/12 19:51:28 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
+2013/11/12 19:51:28 WARN  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that may not work for embedded resources in file /home/hhau/Downloads/apache-jmeter-2.10/bin/proxyserver.jks 
+2013/11/12 19:53:27 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2013/11/12 19:53:27 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2013/11/12 19:53:27 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 19:53:27 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 19:53:27 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 19:53:27 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 19:53:27 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 19:53:28 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 19:53:28 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 19:53:28 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 19:53:28 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 19:53:28 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2013/11/12 19:53:28 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2013/11/12 19:53:28 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 19:53:28 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 19:53:28 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 19:53:28 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@13389826 
+2013/11/12 19:53:28 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@13389826 
+2013/11/12 19:53:28 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@13389826 
+2013/11/12 19:53:28 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 19:53:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 19:53:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 19:53:29 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = hhau-debian 
+2013/11/12 19:53:29 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2013/11/12 19:53:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 19:53:29 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: Setting up HTTPS TrustAll scheme 
+2013/11/12 19:53:29 INFO  - jmeter.util.JsseSSLManager: Using default SSL protocol: TLS 
+2013/11/12 19:53:29 INFO  - jmeter.util.JsseSSLManager: SSL session context: per-thread 
+2013/11/12 19:53:41 INFO  - jmeter.protocol.http.parser.HTMLParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2013/11/12 19:53:41 INFO  - jmeter.protocol.http.parser.HTMLParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2013/11/12 19:53:41 INFO  - jmeter.protocol.http.parser.HTMLParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2013/11/12 19:53:41 INFO  - jmeter.protocol.http.parser.HTMLParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2013/11/12 19:53:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 19:53:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 19:53:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 19:53:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 19:53:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 19:53:55 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 19:53:55 INFO  - jmeter.services.FileServer: Close: debugflags.csv@13389826 
+2013/11/12 19:53:55 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@13389826 
+2013/11/12 19:53:55 INFO  - jmeter.services.FileServer: Close: hosts.csv@13389826 
+2013/11/12 19:53:55 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:01:11 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:01:11 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:01:11 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:01:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:01:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:01:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:01:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:01:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:01:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:01:11 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@25335806 
+2013/11/12 20:01:11 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@25335806 
+2013/11/12 20:01:11 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@25335806 
+2013/11/12 20:01:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:01:11 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:01:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:01:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:01:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:01:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:01:17 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:01:17 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:01:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:01:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:01:20 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:01:20 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:01:20 INFO  - jmeter.services.FileServer: Close: hosts.csv@25335806 
+2013/11/12 20:01:20 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@25335806 
+2013/11/12 20:01:20 INFO  - jmeter.services.FileServer: Close: debugflags.csv@25335806 
+2013/11/12 20:01:20 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:02:36 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:02:36 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:02:36 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:02:36 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:02:37 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:02:37 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:02:37 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:02:37 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:02:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:02:37 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@23227501 
+2013/11/12 20:02:37 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@23227501 
+2013/11/12 20:02:37 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@23227501 
+2013/11/12 20:02:37 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:02:37 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:02:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:02:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:02:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:02:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:02:42 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:02:43 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:02:43 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:02:45 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:02:46 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:02:46 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:02:46 INFO  - jmeter.services.FileServer: Close: hosts.csv@23227501 
+2013/11/12 20:02:46 INFO  - jmeter.services.FileServer: Close: debugflags.csv@23227501 
+2013/11/12 20:02:46 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@23227501 
+2013/11/12 20:02:46 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:25:06 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:25:06 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:25:06 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:25:06 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:25:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:25:07 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:25:07 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:25:07 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:25:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:25:07 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:25:07 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:25:07 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@23564042 
+2013/11/12 20:25:07 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@23564042 
+2013/11/12 20:25:07 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@23564042 
+2013/11/12 20:25:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:25:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:25:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:25:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:25:11 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:25:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:25:12 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:25:16 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:25:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:25:18 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:25:18 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@23564042 
+2013/11/12 20:25:18 INFO  - jmeter.services.FileServer: Close: debugflags.csv@23564042 
+2013/11/12 20:25:18 INFO  - jmeter.services.FileServer: Close: hosts.csv@23564042 
+2013/11/12 20:25:18 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:26:48 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:26:48 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:26:48 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:26:48 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:26:48 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:26:48 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:26:48 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:26:48 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:26:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:26:48 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@22416257 
+2013/11/12 20:26:48 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@22416257 
+2013/11/12 20:26:48 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@22416257 
+2013/11/12 20:26:48 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:26:48 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:26:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:26:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:26:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:26:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:26:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:26:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:26:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:26:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:26:57 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:26:57 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:26:57 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@22416257 
+2013/11/12 20:26:57 INFO  - jmeter.services.FileServer: Close: debugflags.csv@22416257 
+2013/11/12 20:26:57 INFO  - jmeter.services.FileServer: Close: hosts.csv@22416257 
+2013/11/12 20:26:57 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:28:11 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:28:11 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:28:11 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:28:11 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:28:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:28:12 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:28:12 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:28:12 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:28:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:28:12 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@2635915 
+2013/11/12 20:28:12 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@2635915 
+2013/11/12 20:28:12 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@2635915 
+2013/11/12 20:28:12 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:28:12 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:28:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:28:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:28:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:28:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:28:17 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:28:18 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:28:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:28:19 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:28:20 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:28:20 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:28:20 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@2635915 
+2013/11/12 20:28:20 INFO  - jmeter.services.FileServer: Close: hosts.csv@2635915 
+2013/11/12 20:28:20 INFO  - jmeter.services.FileServer: Close: debugflags.csv@2635915 
+2013/11/12 20:28:20 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:35:01 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:35:01 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:35:01 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:35:01 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:35:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:35:02 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:35:02 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:35:02 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:35:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:35:02 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:35:02 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:35:02 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@19816691 
+2013/11/12 20:35:02 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@19816691 
+2013/11/12 20:35:02 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@19816691 
+2013/11/12 20:35:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:35:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:35:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:35:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:35:06 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:35:08 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:35:09 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:35:09 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:35:09 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:35:09 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:35:09 INFO  - jmeter.services.FileServer: Close: debugflags.csv@19816691 
+2013/11/12 20:35:09 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@19816691 
+2013/11/12 20:35:09 INFO  - jmeter.services.FileServer: Close: hosts.csv@19816691 
+2013/11/12 20:35:09 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:40:47 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:40:47 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:40:47 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:40:47 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:40:48 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:40:48 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:40:48 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:40:48 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:40:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:40:48 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@4558377 
+2013/11/12 20:40:48 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@4558377 
+2013/11/12 20:40:48 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@4558377 
+2013/11/12 20:40:48 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:40:48 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:40:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:40:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:40:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:40:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:40:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:40:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:40:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:40:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:40:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:40:54 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:40:54 INFO  - jmeter.services.FileServer: Close: hosts.csv@4558377 
+2013/11/12 20:40:54 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@4558377 
+2013/11/12 20:40:54 INFO  - jmeter.services.FileServer: Close: debugflags.csv@4558377 
+2013/11/12 20:40:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:41:18 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:41:18 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:41:18 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:41:18 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:41:18 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:41:18 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:41:18 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:41:18 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:41:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:41:18 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@30855636 
+2013/11/12 20:41:18 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@30855636 
+2013/11/12 20:41:18 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@30855636 
+2013/11/12 20:41:19 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:41:19 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:41:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:41:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:41:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:41:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:41:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:41:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:41:28 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:41:30 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:41:30 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:41:30 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:41:30 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@30855636 
+2013/11/12 20:41:30 INFO  - jmeter.services.FileServer: Close: debugflags.csv@30855636 
+2013/11/12 20:41:30 INFO  - jmeter.services.FileServer: Close: hosts.csv@30855636 
+2013/11/12 20:41:30 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:43:40 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:43:40 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:43:40 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:43:40 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:43:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:43:40 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:43:40 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:43:40 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:43:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:43:40 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@11965543 
+2013/11/12 20:43:40 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@11965543 
+2013/11/12 20:43:40 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@11965543 
+2013/11/12 20:43:40 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:43:40 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:43:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:43:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:43:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:43:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:43:53 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:43:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:43:55 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:44:08 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:44:08 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:44:08 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:44:08 INFO  - jmeter.services.FileServer: Close: debugflags.csv@11965543 
+2013/11/12 20:44:08 INFO  - jmeter.services.FileServer: Close: hosts.csv@11965543 
+2013/11/12 20:44:08 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@11965543 
+2013/11/12 20:44:08 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:45:16 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:45:16 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:45:16 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:45:16 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:45:16 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:45:16 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:45:16 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:45:16 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:45:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:45:16 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@7878124 
+2013/11/12 20:45:16 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@7878124 
+2013/11/12 20:45:16 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@7878124 
+2013/11/12 20:45:16 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:45:16 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:45:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:45:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:45:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:45:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:45:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:45:27 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:45:28 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:45:28 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:45:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:45:29 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:45:29 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@7878124 
+2013/11/12 20:45:29 INFO  - jmeter.services.FileServer: Close: hosts.csv@7878124 
+2013/11/12 20:45:29 INFO  - jmeter.services.FileServer: Close: debugflags.csv@7878124 
+2013/11/12 20:45:29 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 20:45:41 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 20:45:41 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 20:45:41 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 20:45:41 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 20:45:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 20:45:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 20:45:41 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 20:45:41 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 20:45:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 20:45:41 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@27317520 
+2013/11/12 20:45:41 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@27317520 
+2013/11/12 20:45:41 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@27317520 
+2013/11/12 20:45:41 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 20:45:41 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 20:45:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 20:45:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 20:45:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 20:45:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 20:45:47 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 20:45:47 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 20:45:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 20:45:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 20:45:54 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 20:45:54 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 20:45:54 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@27317520 
+2013/11/12 20:45:54 INFO  - jmeter.services.FileServer: Close: debugflags.csv@27317520 
+2013/11/12 20:45:54 INFO  - jmeter.services.FileServer: Close: hosts.csv@27317520 
+2013/11/12 20:45:54 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 21:04:51 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 21:04:51 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 21:04:51 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 21:04:51 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 21:04:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 21:04:51 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 21:04:51 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 21:04:51 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 21:04:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 21:04:51 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@14151320 
+2013/11/12 21:04:51 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@14151320 
+2013/11/12 21:04:51 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@14151320 
+2013/11/12 21:04:51 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 21:04:51 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 21:04:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 21:04:51 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 21:04:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 21:04:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 21:05:00 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 21:05:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 21:05:03 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 21:05:03 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 21:05:06 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 21:05:06 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 21:05:06 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@14151320 
+2013/11/12 21:05:06 INFO  - jmeter.services.FileServer: Close: hosts.csv@14151320 
+2013/11/12 21:05:06 INFO  - jmeter.services.FileServer: Close: debugflags.csv@14151320 
+2013/11/12 21:05:06 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 21:35:40 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 21:35:40 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 21:35:40 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 21:35:40 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 21:35:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 21:35:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 21:35:41 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 21:35:41 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 21:35:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 21:35:41 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@18411456 
+2013/11/12 21:35:41 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@18411456 
+2013/11/12 21:35:41 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@18411456 
+2013/11/12 21:35:41 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 21:35:41 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 21:35:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 21:35:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 21:35:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 21:35:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 21:35:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 21:35:51 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 21:35:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 21:35:52 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 21:35:56 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 21:35:56 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 21:35:56 INFO  - jmeter.services.FileServer: Close: debugflags.csv@18411456 
+2013/11/12 21:35:56 INFO  - jmeter.services.FileServer: Close: hosts.csv@18411456 
+2013/11/12 21:35:56 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@18411456 
+2013/11/12 21:35:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2013/11/12 21:36:51 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2013/11/12 21:36:51 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2013/11/12 21:36:51 WARN  - jmeter.reporters.ResultCollector: Error creating directories for /home/niels/jmeter/loginresults 
+2013/11/12 21:36:51 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2013/11/12 21:36:52 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2013/11/12 21:36:52 INFO  - jmeter.engine.StandardJMeterEngine: Starting 5 threads for group Thread Group. 
+2013/11/12 21:36:52 INFO  - jmeter.engine.StandardJMeterEngine: Thread will stop on error 
+2013/11/12 21:36:52 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 5 ramp-up 1 perThread 200.0 delayedStart=false 
+2013/11/12 21:36:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2013/11/12 21:36:52 INFO  - jmeter.services.FileServer: Stored: debugflags.csv Alias: debugflags.csv@13596360 
+2013/11/12 21:36:52 INFO  - jmeter.services.FileServer: Stored: hosts.csv Alias: hosts.csv@13596360 
+2013/11/12 21:36:52 INFO  - jmeter.services.FileServer: Stored: 200users_woheader.csv Alias: 200users_woheader.csv@13596360 
+2013/11/12 21:36:52 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2013/11/12 21:36:52 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2013/11/12 21:36:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2013/11/12 21:36:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2013/11/12 21:36:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2013/11/12 21:36:52 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2013/11/12 21:37:02 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2013/11/12 21:37:06 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2013/11/12 21:37:06 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2013/11/12 21:37:06 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2013/11/12 21:37:06 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2013/11/12 21:37:06 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2013/11/12 21:37:06 INFO  - jmeter.services.FileServer: Close: hosts.csv@13596360 
+2013/11/12 21:37:06 INFO  - jmeter.services.FileServer: Close: debugflags.csv@13596360 
+2013/11/12 21:37:06 INFO  - jmeter.services.FileServer: Close: 200users_woheader.csv@13596360 
+2013/11/12 21:37:06 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
