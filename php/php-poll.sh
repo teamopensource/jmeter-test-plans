@@ -11,8 +11,6 @@ cap=0
 jmeter -n -t../vote5.jmx -Jusercount=$usercount -Joutpostfix=$postfix -Jhostsfile=$hostsfile -Jdebugfile=$debugfile -Jrampup=$rampup -Jinputdelay=$inputdelay
 wait
 
-#/usr/bin/Rscript poll_dist4.r $usercount $postfix $hostsfile $rampup $inputdelay
-
 ## move output to subdirectory on server
 ssh moodle@192.168.1.$server "mkdir /var/tmp/$postfix; cd /var/tmp/$postfix; mv /var/tmp/cachegrind.* /var/tmp/$postfix"
 
